@@ -1,0 +1,60 @@
+* {
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("images/Untitled design.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 60px;
+
+    text-align: center;
+    color: #59260a;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 400px; 
+    height: 300px; 
+}
+.order-btn-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.order-btn-container .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #59260a;
+    background-image: linear-gradient(45deg, #c24c2e, #c24c2a);
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    display: block;
+ 
+}
+
+body::after {
+    content: "";
+    display: none;
+}

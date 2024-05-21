@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #fde3ca;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: #59260a;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.order-btn-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.order-btn-container .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #59260a;
+    background-image: linear-gradient(45deg, #c24c2e, #c24c2a);
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    background-image: url("images/Untitled design.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+
+}
+
+.box {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.first {
+    width: 500px;
+    height: 500px;
+}
+
+.heading {
+    font-size: 40px;
+    margin: -50px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.order {
+    background-color: #c24c2a;
+    text-align: center;
+}
+.second{
+    margin-top: -20%;
+}
+.beli-btn-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.beli-btn-container .beli {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #59260a;
+    font-weight: 800;
+    background-image: linear-gradient(45deg, #fde3ca,#fde3ca);
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.HOW{
+    background-color: #fde3ca;
+}
+.heading2{
+    font-size: 50px;
+    margin-top: -10%;
+    text-align: center;
+}
+.sub{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.third{
+  display: block;
+  margin: auto;
+}
+.CONTACT {
+    background-image: url("images/Untitled design.png");
+    background-size: auto;
+
+}
+.forth{
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+.fifth{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 220px;
+
+}
+.tik{
+    height: 40px;
+    width: 40px;
+}
+.sh{
+    height: 40px;
+    width: 40px;
+}
+.ig{
+    height: 30px;
+    width: 30px;
+}
+.wa{
+    height: 40px;
+    width: 40px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+.social-item {
+    flex: 0 0 45%;
+    display: flex;
+    align-items: center;
+}
+
+.social-item img {
+    margin-right: 10px;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-item p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#count1{
+    font-size: 30px;
+}
+.counter1{
+    margin-left: 305px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+.body1{
+    background: #fde3ca;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button1 button{
+    color:#000;
+    background: transparent;
+    padding: 5px 5px;
+    font-size: 30px;
+    border: 0;
+}
+#count2{
+    font-size: 30px;
+}
+.counter2{
+    margin: auto;
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.body2{
+    background: #fde3ca;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button2 button{
+    color:#000;
+    background: transparent;
+    padding: 5px 5px;
+    font-size: 30px;
+    border: 0;
+}
+#count3{
+    font-size: 30px;
+}
+.counter3{
+    margin-right: 324px;
+    margin-top: -60px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+}
+.body3{
+    background: #fde3ca;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button3 button{
+    color:#000;
+    background: transparent;
+    padding: 5px 5px;
+    font-size: 30px;
+    border: 0;
+}
